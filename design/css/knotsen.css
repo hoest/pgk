@@ -1,0 +1,112 @@
+body {
+  background-color: #007000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  padding-top: 25px;
+  background-image: url('../images/pgk-2011.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  background-image: url('../images/pgk-logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 275px;
+}
+
+header h1 {
+  display:none;
+}
+
+nav {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: -2em;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+nav ul li {
+  float:left;
+}
+
+nav ul li a {
+  display: block;
+  padding: .5em;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #007000;
+}
+
+#content {
+  background-image: url('../images/pgk-logo-black.png');
+  background-repeat: no-repeat;
+  background-position: right -275px;
+  background-color: #fff;
+  float: left;
+  width: 100%;
+}
+
+#article {
+  padding: .5em;
+  width: 685px;
+  float: left;
+}
+
+sidebar {
+  font-size: 12px;
+  margin-top: 100px;
+  float: left;
+  width: 250px;
+}
+
+#content a {
+  color: #007000;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5 {
+  color: #007000;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+#content p {
+  margin-bottom: 1em;
+}
+
+#agenda {
+  border-radius: 25px;
+  background-image: url('../images/agenda-bg.png');
+  padding: 10px;
+}
+
+#agenda h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#agenda ul {
+  list-style: disc;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+#agenda ul li {
+  margin-left: 1em;
+}
