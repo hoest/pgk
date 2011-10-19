@@ -76,6 +76,10 @@ sidebar {
   width: 250px;
 }
 
+#content {
+  line-height: 2.2ex;
+}
+
 #content a {
   color: #007000;
 }
@@ -83,11 +87,11 @@ sidebar {
 #content h1, #content h2, #content h3, #content h4, #content h5 {
   color: #007000;
   font-weight: bold;
-  margin-bottom: .5em;
+  margin-bottom: 1ex;
 }
 
 #content p {
-  margin-bottom: 1em;
+  margin-bottom: 2ex;
 }
 
 #agenda {
@@ -104,7 +108,7 @@ sidebar {
 #agenda ul {
   list-style: disc;
   margin-left: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2ex;
 }
 
 #agenda ul li {
