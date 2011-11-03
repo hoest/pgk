@@ -24,6 +24,10 @@ header {
   height: 275px;
 }
 
+.ie6 header {
+  background-image: url('../images/pgk-logo.gif');
+}
+
 header h1 {
   display:none;
 }
@@ -35,6 +39,7 @@ nav {
   margin-top: -2em;
   background-color: #fff;
   opacity: 0.8;
+  filter: alpha(opacity=80); // IE
 }
 
 nav ul li {
@@ -63,13 +68,17 @@ nav ul li a:hover {
   width: 100%;
 }
 
+.ie6 #content {
+  background-image: url('../images/pgk-logo-black.gif');
+}
+
 #article {
   padding: .5em;
   width: 685px;
   float: left;
 }
 
-sidebar {
+#sidebar {
   font-size: 12px;
   margin-top: 100px;
   float: left;
