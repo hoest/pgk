@@ -1,0 +1,16 @@
+      </section>
+    </section>
+    <footer>
+      [[ getpagelist var="pagelist" onlychapter="footer" ]]
+      [[ foreach from=$pagelist item="pageuri" ]]
+        [[ getpage uri=$pageuri ]]
+        <span class="footerlink">
+          <a href="[[ $page.link ]]">[[ $page.title ]]</a>
+        </span>
+        [[ resetpage ]]
+      [[ /foreach ]]
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="[[template_dir]]js/default.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+[[ include file="`$templatedir`/_sub_header.html" ]]
+
+<article id="entry">
+  <section class="date">
+    <div class="day">
+      [[ date format="%day%" ]]
+    </div>
+    <div class="month-year">
+      [[ date format="%monname% %aye%" ]]
+    </div>
+  </section>
+
+  <header>
+    <hgroup>
+      <h1>
+        <a href="[[ link hrefonly=1 ]]">[[title]]</a>
+      </h1>
+
+      <h2>[[subtitle]]</h2>
+    </hgroup>
+  </header>
+
+  <section class="entry">
+    [[ introduction ]]
+
+    [[ body ]]
+  </section>
+</article>
+
+[[ include file="`$templatedir`/_sub_sidebar.html" ]]
+[[ include file="`$templatedir`/_sub_footer.html" ]]
