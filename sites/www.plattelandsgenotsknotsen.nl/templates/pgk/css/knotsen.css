@@ -4,6 +4,14 @@ body {
   font-size: 16px;
 }
 
+strong {
+  font-weight:bold;
+}
+
+em {
+  font-style:italic;
+}
+
 #wrapper {
   width: 960px;
   margin-left: auto;
