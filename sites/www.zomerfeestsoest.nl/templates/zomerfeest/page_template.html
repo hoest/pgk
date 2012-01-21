@@ -1,0 +1,42 @@
+[[ include file="`$templatedir`/_sub_header.html" ]]
+
+<article id="page">
+  <section class="date">
+    <div class="day">
+      [[ date format="%day%" ]]
+    </div>
+    <div class="month-year">
+      [[ date format="%monname% %aye%" ]]
+    </div>
+  </section>
+
+  <header>
+    <hgroup>
+      <h1>
+        <a href="[[ link hrefonly=1 ]]">[[title]]</a>
+      </h1>
+
+      <h2>[[subtitle]]</h2>
+    </hgroup>
+  </header>
+
+  <section class="entry">
+    [[ introduction ]]
+
+    [[ body ]]
+
+    [[if $page.extrafields.use_feed != '' ]]
+      <div class="feed">
+      [[ feed url=$page.extrafields.use_feed amount="100" allowtags="<table><tr><td><br><a><img><p><div>" ]]
+        <div class="feed-item">
+          <div class="title">%title%</div>
+          <div class="description">%description%</div>
+        </div>
+      [[ /feed ]]
+      </div>
+    [[/if]]
+  </section>
+</article>
+
+[[ include file="`$templatedir`/_sub_sidebar.html" ]]
+[[ include file="`$templatedir`/_sub_footer.html" ]]

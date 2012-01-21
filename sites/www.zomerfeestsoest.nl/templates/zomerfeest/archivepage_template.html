@@ -1,0 +1,45 @@
+[[ include file="`$templatedir`/_sub_header.html" ]]
+
+<section id="blog">
+
+  <!-- begin of weblog 'standard' -->
+  [[ subweblog name="standard" ]][[ literal ]]
+
+  <!-- entry '[[title]]' -->
+  <article>
+    <section class="date">
+      <div class="day">
+        [[ date format="%day%" ]]
+      </div>
+      <div class="month-year">
+        [[ date format="%monname% %aye%" ]]
+      </div>
+    </section>
+
+    <header>
+      <h1>
+        <a href="[[ link hrefonly=1 ]]">[[title]]</a>
+      </h1>
+    </header>
+
+    <section class="entry">
+      [[introduction]]
+
+      [[more]]
+    </section>
+  </article>
+
+  [[ /literal ]][[ /subweblog ]]
+  <!-- end of weblog 'standard' -->
+
+  <section class="pager">
+    <ul>
+      <li class="older">[[paging action="prev" text="&laquo; Vorige" ]]&#160;</li>
+      <li class="newer">&#160;[[paging action="next" text="Volgende &raquo;" ]]</li>
+    </ul>
+  </section>
+
+</section>
+
+[[ include file="`$templatedir`/_sub_sidebar.html" ]]
+[[ include file="`$templatedir`/_sub_footer.html" ]]

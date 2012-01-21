@@ -1,0 +1,242 @@
+body {
+  background-color: #ffff01;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  padding-top: 25px;
+  background-image: url('../images/zomerfeest-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#header header {
+  background-image: url('../images/zomerfeest-logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 275px;
+}
+
+.ie6 header {
+  background-image: url('../images/zomerfeest-logo.gif');
+}
+
+#header header h1 {
+  display:none;
+}
+
+nav {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: -2em;
+  background-color: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80); // IE
+}
+
+nav ul li {
+  float:left;
+}
+
+nav ul li a {
+  display: block;
+  padding: .5em;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fe0000;
+  background-color: #ffff01;
+}
+
+#content {
+  background-image: url('../images/zomerfeest-logo-black.png');
+  background-repeat: no-repeat;
+  background-position: right -275px;
+  background-color: #fff;
+  float: left;
+  width: 100%;
+  line-height: 2.2ex;
+}
+
+#content a {
+  color: #fe0000;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5 {
+  color: #fe0000;
+  font-weight: bold;
+  margin-bottom: 1ex;
+}
+
+#content .entry ul,
+#content .entry table,
+#content .entry p {
+  margin-bottom: 2ex;
+}
+
+#content .entry ul {
+  list-style: disc;
+}
+
+#content .entry th,
+#content .entry td {
+  text-align: left;
+}
+
+#content .entry th {
+  font-weight: bold;
+}
+
+#content .entry li {
+  margin-left: 1em;
+}
+
+.ie6 #content {
+  background-image: url('../images/zomerfeest-logo-black.gif');
+}
+
+.date {
+  width: 120px;
+  float: left;
+  color: #fe0000;
+  text-align:center;
+}
+
+.date .day {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
+.date .month-year {
+  text-transform:uppercase;
+}
+
+#blog, #page, #entry, #extra {
+  padding: .5em;
+  width: 685px;
+  float: left;
+  margin-top: 1ex;
+}
+
+#blog header h1,
+#page header h1,
+#entry header h1,
+#extra header h1 {
+  font-size: 20px;
+}
+
+#blog header,
+#page header,
+#entry header,
+#extra header,
+#blog .entry,
+#page .entry,
+#entry .entry,
+#extra .entry {
+  margin-left: 125px;
+}
+
+#blog article {
+  border-bottom: 1px solid #cecece;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+
+#sidebar {
+  font-size: 12px;
+  margin-top: 100px;
+  float: left;
+  width: 250px;
+}
+
+#agenda {
+  border-radius: 25px;
+  background-image: url('../images/agenda-bg.png');
+  padding: 10px;
+}
+
+#agenda h1 {
+  text-align: center;
+  color: #fe0000;
+}
+
+#agenda p {
+  margin-left: 1em;
+  margin-bottom: 2ex;
+}
+
+#agenda ul {
+  list-style: disc;
+  margin-left: 1em;
+  margin-bottom: 2ex;
+}
+
+#agenda ul li {
+  margin-left: 1em;
+}
+
+footer {
+  display: block;
+  float:left;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  width: 100%;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
+footer .footerlink {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+footer a,
+footer {
+  color: #fe0000;
+}
+
+.pager {
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+.pager .older,
+.pager .newer {
+  float: left;
+  width: 50%;
+}
+
+.pager .newer {
+  text-align: right;
+  margin-left:
+}
+
+.feed .feed-item {
+  margin-bottom: 1ex;
+}
+
+.feed .feed-item .title {
+  font-weight: bold;
+  margin-bottom: 1ex;
+}
+
+.feed .feed-item td {
+  vertical-align: top;
+}
