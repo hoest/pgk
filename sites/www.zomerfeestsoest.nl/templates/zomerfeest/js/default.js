@@ -14,7 +14,7 @@ $(function() {
 
 /* image rotator */
 function changeImg() {
-  $('#header').animate({opacity: 1}, 1000, function() {
+  $('#header').animate({opacity: 1}, 500, function() {
     $(this).css('background-image', 'url(' + preloadArr[currImg++%preloadArr.length].src +')');
   }).animate({opacity: 1}, 1000);
 }
